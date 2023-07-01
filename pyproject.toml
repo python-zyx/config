@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zyx-config"
+version = "0.1.0"
+description = "Configuration for Python Apps"
+authors = ["Harshad Sharma <harshad@sharma.io>"]
+license = "Apache-2.0 License"
+readme = "README.md"
+packages = [{include = "zyx"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+appdirs = "^1.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
